@@ -49,7 +49,7 @@ with tab1:
     This breakdown helps understand the underlying drivers of company profitability.
     """)
     st.image("dupont-extended-roe.png", caption="Dupont Analysis Model")
-    st.expander("What is Dupont Analysis and why is projected ROE important?"):
+with st.expander("What is Dupont Analysis and why is projected ROE important?"):
     st.markdown("""
     **About Dupont Analysis**  
     Dupont Analysis is a financial framework that breaks down Return on Equity (ROE) into three key components: **profitability**, **efficiency**, and **leverage**. It helps investors understand *what drives a company's returns* — whether it’s strong margins, efficient use of assets, or reliance on debt.
