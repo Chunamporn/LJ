@@ -49,6 +49,18 @@ with tab1:
     This breakdown helps understand the underlying drivers of company profitability.
     """)
     st.image("dupont-extended-roe.png", caption="Dupont Analysis Model")
+    with st.expander("What is Dupont Analysis and why is projected ROE important?"):
+    st.markdown("""
+    **About Dupont Analysis**  
+    Dupont Analysis is a financial framework that breaks down Return on Equity (ROE) into three key components: **profitability**, **efficiency**, and **leverage**. It helps investors understand *what drives a company's returns* — whether it’s strong margins, efficient use of assets, or reliance on debt.
+
+    **Why Projected ROE Matters**  
+    Projected ROE shows **how efficiently a company is expected to generate profits from its shareholders' equity in the future**.  
+    - A **rising projected ROE** can signal stronger profitability, better management, or a more efficient business model.  
+    - A **falling projected ROE** may warn of declining margins, operational challenges, or increased financial risk.
+    
+    Investors closely monitor projected ROE because it **directly impacts future returns** and **valuations**. Companies with high and stable ROE projections often command premium valuations and attract long-term investors.
+    """)
 # --- Tab 2: Data Collection and Cleaning ---
 with tab2:
     st.title("🧹 Data Collection and Cleaning")
