@@ -46,7 +46,7 @@ with tab1:
     - **Equity Multiplier (EQM)** = Total Assets / Total Equity
 
     ROE = PMR × ATR × EQM
-    st.image("https://github.com/Chunamporn/LJ/blob/main/dupont-extended-roe.png", caption="Dupont Analysis Model")
+    st.image("dupont-extended-roe.png", caption="Dupont Analysis Model")
     This breakdown helps understand the underlying drivers of company profitability.
     """)
 
