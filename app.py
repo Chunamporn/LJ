@@ -75,7 +75,7 @@ All columns were carefully reviewed to verify that their data types matched the 
 - **Handling Missing Values (NA Values)**  
 Rows containing missing (NA) values were removed to prevent biases and inaccuracies in the analysis. Ensuring a complete dataset improves the robustness and interpretability of the results.
 
-**Filtering Out Invalid Zero Entries**  
+- **Filtering Out Invalid Zero Entries**  
 Rows where critical features had zero values — which were deemed invalid or non-representative for meaningful analysis — were excluded. This step helped maintain the integrity and relevance of the dataset.
 
 - **Outlier Treatment through Winsorization**  
