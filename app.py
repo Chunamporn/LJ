@@ -67,21 +67,21 @@ with tab2:
     st.markdown("""
 ### Data Cleaning Summary
 
-> To ensure the quality, reliability, and usability of the dataset, a thorough data cleaning process was conducted, which involved the following steps:
->
-> - **Data Type Validation and Conversion**  
->   All columns were carefully reviewed to verify that their data types matched the nature of the information they contained. Wherever discrepancies were found, data types were corrected (e.g., converting strings to numerical types) to enable accurate calculations and visualizations.
->
-> - **Handling Missing Values (NA Values)**  
->   Rows containing missing (NA) values were removed to prevent biases and inaccuracies in the analysis. Ensuring a complete dataset improves the robustness and interpretability of the results.
->
-> - **Filtering Out Invalid Zero Entries**  
->   Rows where critical features had zero values — which were deemed invalid or non-representative for meaningful analysis — were excluded. This step helped maintain the integrity and relevance of the dataset.
->
-> - **Outlier Treatment through Winsorization**  
->   Outliers can heavily skew statistical results and model performance. To address this, Winsorization was applied — extreme high and low values were capped at specific percentile thresholds. This technique retained the overall structure of the data while minimizing the influence of anomalies.
->
-> Overall, these data cleaning steps significantly enhanced the dataset’s quality, ensuring that subsequent analyses are based on accurate, complete, and reliable information.
+To ensure the quality, reliability, and usability of the dataset, a thorough data cleaning process was conducted, which involved the following steps:
+
+- **Data Type Validation and Conversion**  
+All columns were carefully reviewed to verify that their data types matched the nature of the information they contained. Wherever discrepancies were found, data types were corrected (e.g., converting strings to numerical types) to enable accurate calculations and visualizations.
+
+- **Handling Missing Values (NA Values)**  
+Rows containing missing (NA) values were removed to prevent biases and inaccuracies in the analysis. Ensuring a complete dataset improves the robustness and interpretability of the results.
+
+**Filtering Out Invalid Zero Entries**  
+Rows where critical features had zero values — which were deemed invalid or non-representative for meaningful analysis — were excluded. This step helped maintain the integrity and relevance of the dataset.
+
+- **Outlier Treatment through Winsorization**  
+Outliers can heavily skew statistical results and model performance. To address this, Winsorization was applied — extreme high and low values were capped at specific percentile thresholds. This technique retained the overall structure of the data while minimizing the influence of anomalies.
+
+Overall, these data cleaning steps significantly enhanced the dataset’s quality, ensuring that subsequent analyses are based on accurate, complete, and reliable information.
 """)
 
 # --- Tab 3: Model Overview ---
