@@ -48,7 +48,7 @@ with tab1:
     ROE = PMR × ATR × EQM
     This breakdown helps understand the underlying drivers of company profitability.
     """)
-    st.image("DuPont2.png", caption="Dupont Analysis Model")
+    st.image("DuPont 2.png", caption="Dupont Analysis Model")
 with st.expander("What is Dupont Analysis and why is projected ROE important?"):
     st.markdown("""
     **About Dupont Analysis**  
