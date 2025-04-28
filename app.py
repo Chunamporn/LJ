@@ -38,7 +38,7 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 with tab1:
     st.title("📚 DuPont Analysis Overview")
     st.markdown("""
-    **DuPont Analysis** is a method of performance measurement that was started by the DuPont Corporation in the 1920s.
+    **DuPont Analysis** is a method of performance measurement that was started by the DuPont Corporation in the 1920s. 
 
     It breaks Return on Equity (ROE) into three parts:
     - **Profit Margin Ratio (PMR)** = Net Income / Revenue
@@ -49,10 +49,7 @@ with tab1:
     This breakdown helps understand the underlying drivers of company profitability.
     """)
     st.image("DuPont 2.png", caption="Dupont Analysis Model")
-with st.expander("What is Dupont Analysis and why is projected ROE important?"):
     st.markdown("""
-    **About Dupont Analysis**  
-    Dupont Analysis is a financial framework that breaks down Return on Equity (ROE) into three key components: **profitability**, **efficiency**, and **leverage**. It helps investors understand *what drives a company's returns* — whether it’s strong margins, efficient use of assets, or reliance on debt.
 
     **Why Projected ROE Matters**  
     Projected ROE shows **how efficiently a company is expected to generate profits from its shareholders' equity in the future**.  
