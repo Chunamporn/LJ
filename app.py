@@ -179,5 +179,5 @@ with tab5:
 # Footer
 st.markdown("""
 ---
-Built with ❤️ by [Your Name] | Financial Analytics Project 2025
+Built with ❤️ by Soham Sarvade, Chun (LJ) Na takuathung, and Siddhant Nayar | Financial Analytics Project 2025
 """)
